@@ -44,10 +44,7 @@ const handleIndexRoute: GetServerSideProps = async ({ req, res }) => {
           },
         });
 
-
-        const [siteData] = await prisma.$transaction([
-          fetchNotionSite,
-        ]);
+        const [siteData] = await prisma.$transaction([fetchNotionSite]);
 
         console.log(siteData);
         // console.log(siteData.toString());
@@ -105,9 +102,7 @@ const handleIndexRoute: GetServerSideProps = async ({ req, res }) => {
         },
       });
 
-      const [siteData] = await prisma.$transaction([
-        fetchNotionSite,
-      ]);
+      const [siteData] = await prisma.$transaction([fetchNotionSite]);
 
       console.log(siteData);
       // console.log(siteData.toString());

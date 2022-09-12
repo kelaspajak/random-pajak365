@@ -10,10 +10,11 @@ export default function Page({ sites }) {
 
   return (
     <div>
-      
       <div className='mx-10'>
         <div className='my-8 text-center'>
-          <h1 className='text-4xl font-extrabold gradient-text-accent'>Showcase</h1>
+          <h1 className='text-4xl font-extrabold gradient-text-accent'>
+            Showcase
+          </h1>
           <h2 className='mt-2 text-gray-600 font-base'>
             Beautiful websites created with Pajak365
           </h2>
@@ -26,7 +27,8 @@ export default function Page({ sites }) {
                 <a
                   href={'https://' + subdomain + '.pajak365.com'}
                   target='_blank'
-                  rel='noopener noreferrer'>
+                  rel='noopener noreferrer'
+                >
                   <div className='max-w-sm px-3 mx-auto my-3 text-center transition-all duration-500 rounded-lg py-7 hover:border border-bluegray-200 hover:shadow-lg group'>
                     {(
                       // eslint-disable-next-line @next/next/no-img-element
@@ -46,7 +48,6 @@ export default function Page({ sites }) {
               </div>
             );
           })}
-
         </div>
       </div>
     </div>

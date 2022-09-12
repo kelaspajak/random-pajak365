@@ -1,4 +1,4 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
+const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
 module.exports = {
@@ -16,10 +16,6 @@ module.exports = {
         'twitter-blue': '#1da1f2',
         bluegray: colors.blueGray,
       },
-    },
-    fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
-      mono: ['Menlo', ...fontFamily.mono],
     },
   },
   variants: {

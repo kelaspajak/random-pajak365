@@ -113,7 +113,8 @@ export default function Home({
               replace={replace}
               scroll={scroll}
               shallow={shallow}
-              locale={locale}>
+              locale={locale}
+            >
               <a {...props} />
             </Link>
           ),

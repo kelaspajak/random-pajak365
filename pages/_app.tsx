@@ -41,16 +41,13 @@ import 'prismjs/components/prism-javascript';
 import 'prismjs/components/prism-typescript';
 import 'prismjs/components/prism-bash';
 
-
 const MyApp = ({ Component, pageProps }) => {
   const router = useRouter();
   /**
    * If the current route is listed as public, render it directly.
    * Otherwise, use Clerk to require authentication.
    */
-  return (
-          <Component {...pageProps} />
-  );
+  return <Component {...pageProps} />;
 };
 
 export default MyApp;

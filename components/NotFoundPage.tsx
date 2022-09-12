@@ -1,4 +1,3 @@
-
 const NotFoundPage = () => {
   return (
     <div>
@@ -11,7 +10,8 @@ const NotFoundPage = () => {
         <div className='mt-10'>
           <a
             href='https://pajak365.com/'
-            className='px-3 py-1 mt-10 text-xl border border-blue-500 rounded shadow bg-blue-50 hover:bg-blue-100'>
+            className='px-3 py-1 mt-10 text-xl border border-blue-500 rounded shadow bg-blue-50 hover:bg-blue-100'
+          >
             {'<'}- Go back to home
           </a>
         </div>

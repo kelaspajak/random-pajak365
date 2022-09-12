@@ -1,8 +1,10 @@
 ![image](https://user-images.githubusercontent.com/69138026/127688763-0ac2fdb2-3f77-4de5-bacd-f56b3d600f31.png)
+
 # Pajak365
+
 ## Build blazing fast websites with Notion in light speed ⚡️
 
-Launch SEO friendly, blazing fast websites from Notion,Google Sheets, GitHub,  Airtable with Pajak365
+Launch SEO friendly, blazing fast websites from Notion,Google Sheets, GitHub, Airtable with Pajak365
 
 ## What's Pajak365
 
@@ -12,7 +14,7 @@ Pajak365 is a no-code platform that helps you launch websites from your favourit
 
 1. Free custom subdomains (eg. your-name.pajak365.com)
 2. **Live updating** website
-3. Automatic OG Image generation ( **not with puppeteer** 🤯  read more to find out)
+3. Automatic OG Image generation ( **not with puppeteer** 🤯 read more to find out)
 4. Custom styling ( with CSS )
 5. Custom `<head>` tags ( for analytics and infinite more integrations )
 6. **Showcase** your websites in the [showcase page](https://pajak365.com/showcase)
@@ -45,7 +47,7 @@ Pajak365 is a no-code platform that helps you launch websites from your favourit
 
 This is one of the most surprising part of the blog. That's because Pajak365 is completely built with the Jamstack. Yeah, you heard me right. The whole app was made with Next.js (except for the automatic OG image generation service )
 
--  Next.js - The most amazing React framework on the planet
+- Next.js - The most amazing React framework on the planet
 - Clerk - Authentication
 - TailwindCSS - Styling
 - Radix UI - Primitive react component library
@@ -73,7 +75,8 @@ You can contribute by submitting templates too!! For more details visit https://
 - Create a new branch
 - Once finishing a new feature or fixing a bug, just open a PR :)
 
-> Remember to use **conventional commits**. 
+> Remember to use **conventional commits**.
+>
 > - **fix: \<a bug\>** for a bug fix
 > - **feat: \<a new feature\>** for a new feature
 > - **refactor: \<a code refactor\>** for a code refactor
@@ -85,6 +88,5 @@ You can contribute by submitting templates too!! For more details visit https://
 ## Support Me ☕️
 
 If you would like to support me, you can by me a coffee here 👇
-
 
 <a href="https://www.buymeacoffee.com/lalitcodes" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
