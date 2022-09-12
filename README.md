@@ -35,10 +35,10 @@ Pajak365 is a no-code platform that helps you launch websites from your favourit
 ## Soem handy links
 
 - Live website → https://pajak365.com
-- GitHub repo → https://github.com/lalit2005/Pajak365
+- GitHub repo → https://github.com/pajakbalikpapan/random-pajak365
 - Showcase → https://pajak365.com/showcase
 - Guides → https://guides.pajak365.com
-- Example site with Notion → https://lalit.pajak365.com
+- Example site with Notion → https://less.pajak365.com
 - Example site with GitHub → https://Pajak365-with-github.pajak365.com/
 
 ## Tech Stack 📚
