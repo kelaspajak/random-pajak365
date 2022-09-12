@@ -1,6 +1,7 @@
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
+  font-family: 'Inter', sans-serif;
 }
 
 .notion-page {
