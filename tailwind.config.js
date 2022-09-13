@@ -2,7 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-  purge: [
+  content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
     './layouts/**/*.{js,ts,jsx,tsx}',
@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         'custom-blue': '#375EF1',
         'twitter-blue': '#1da1f2',
-        bluegray: colors.blueGray,
+        bluegray: colors.slate,
       },
     },
   },
